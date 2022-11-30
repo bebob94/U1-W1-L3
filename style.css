@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -13,6 +16,7 @@ header{
 
 #logo{
     height: 80px;
+    cursor: pointer;
 }
 #line{
     margin: 0;
@@ -56,3 +60,8 @@ main{
     text-align: left;
 }
 
+footer{
+    text-align: left;
+    background-color: brown;
+    border-radius: 3%;
+}
