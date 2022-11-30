@@ -18,12 +18,9 @@ header{
     height: 80px;
     cursor: pointer;
 }
-#line{
-    margin: 0;
-    height: 2px;
-    background-color: yellow;
-}
+
 #description-logo{
+    border-top: 3px solid yellow;
     margin-top: 0;
     background-color: rgba(245, 46, 162, 0.315);
 }
